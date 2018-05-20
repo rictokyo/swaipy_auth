@@ -65,6 +65,11 @@ namespace IdentityDemo
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+			services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = "2056413744622375";
+                facebookOptions.AppSecret = "f1f3a6c3d3c6dc79082e80f3665ad0a2";
+            });
 
             services.AddMvc();
 
