@@ -19,14 +19,14 @@ namespace IdentityDemo.Controllers
         [Authorize]
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Loyalty, the swaipy way.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact us.";
 
             return View();
         }
