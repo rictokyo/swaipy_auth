@@ -13122,9 +13122,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ricardosantos/workspace/demo1/IdentityDemo.csproj",
-      "projectName": "IdentityDemo",
-      "projectPath": "/Users/ricardosantos/workspace/demo1/IdentityDemo.csproj",
+      "projectUniqueName": "/Users/ricardosantos/workspace/demo1/Swaipy.csproj",
+      "projectName": "Swaipy",
+      "projectPath": "/Users/ricardosantos/workspace/demo1/Swaipy.csproj",
       "packagesPath": "/Users/ricardosantos/.nuget/packages/",
       "outputPath": "/Users/ricardosantos/workspace/demo1/obj",
       "projectStyle": "PackageReference",
